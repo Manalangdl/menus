@@ -1,0 +1,21 @@
+.main-header h1{color:pink};
+
+.main-header{
+    width: 100%;
+    height: 78px;
+    background-color: white;
+}
+
+.main-header #logo{
+    color:var(--dark-maroon);
+    font-family: "Pacifico",cursive;
+    font-size:34px;
+    font-weight:bold;
+}
+
+@media (max-width: 600px){
+    .main-header{
+        padding: 8px 16px !important;
+        width: 100%;
+    }
+}

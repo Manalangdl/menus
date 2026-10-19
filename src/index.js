@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-
+import "./index.css";
+import Aside from "./components/aside/Aside"
+import Header from "./components/header/Header";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <div>
-    <h1>Hello World</h1>
-  </div>
+    <Aside />
+    <Header />
   </React.StrictMode>
 );
