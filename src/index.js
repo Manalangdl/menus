@@ -1,11 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import "./index.css";
-import App from './components/app/App';
+import Layout from "./Layout";
+import Home from "./pages/home/Home";
+import Reviews from "./pages/reviews/Reviews";
+
+const App = () => {
+	return(
+		<HashRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="reviews" element={<Reviews />} />
+        </Route>
+      </Routes>
+		</HashRouter>
+	)
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App/>
-  </React.StrictMode>
+	<React.StrictMode>
+    <App />
+	</React.StrictMode>
 );

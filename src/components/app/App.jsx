@@ -2,11 +2,11 @@ import React from 'react'
 import Layout from '../layout/Layout';
 
 // NEED TO MAKE 
-import Home from "../home/Home";
-import Reviews from "../reviews/Reviews";
-import TopPicks from "../top-picks/TopPicks";
-import Guide from "../guide/Guide";
-import About from "../about/About";
+import Home from "../../pages/home/Home";
+import Reviews from "../../pages/reviews/Reviews";
+import TopPicks from "../../pages/top-picks/TopPicks";
+import Guide from "../../pages/guide/Guide";
+import About from "../../pages/about/About";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
