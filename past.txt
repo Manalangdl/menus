@@ -17,3 +17,26 @@ git add .
  *  History restored 
 
 lindsaymanalang@lindsays-MacBook-Pro-2 menus % 
+
+lindsaymanalang@lindsays-MacBook-Pro-2 menus % npm install react-router-dom
+
+added 4 packages, and audited 1322 packages in 1m
+
+274 packages are looking for funding
+  run `npm fund` for details
+
+100 vulnerabilities (3 low, 33 moderate, 64 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+npm warn install-scripts 3 packages have install scripts not yet covered by allowScripts:
+npm warn install-scripts   core-js@3.50.0 (postinstall: node -e "try{require('./postinstall')}catch(e){}")
+npm warn install-scripts   core-js-pure@3.50.0 (postinstall: node -e "try{require('./postinstall')}catch(e){}")
+npm warn install-scripts   fsevents@2.3.3 (install: (install scripts present))
+npm warn install-scripts
+npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
