@@ -35,6 +35,15 @@ body{
     color:black;
 }
 
+/* content */
+#content{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin:0 auto;
+    width:80%;
+}
+
 /* FLEX */
 .flex{
     display:flex;
@@ -100,7 +109,7 @@ ul{
     list-style:none;
 }
 
-/* mobile menu */
+/* MOBILE MENU*/
 .mb{
     visibility: hidden;
     display: none;
