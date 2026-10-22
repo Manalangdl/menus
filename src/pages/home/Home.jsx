@@ -1,9 +1,11 @@
 import "./Home.css";
-
+import About from "../about/About";
+import Hero from "../../components/hero/Hero";
 const Home = () => {
     return (
         <div id="home">
-            <h2>Home</h2>
+            <Hero />
+            <About />
         </div>
     )
 };
