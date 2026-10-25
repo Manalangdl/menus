@@ -1,11 +1,14 @@
 import "./Footer.css";
-import {Heart} from "lucide-react";
+import LeftSide from "./LeftSide";
+import RightSide from "./RightSide";
+
 const Footer = () =>{
     return(
-        <section id="main-footer">
-            <h3>Footer</h3>
-            <h3><Heart /> Heart</h3>
-        </section>
+        <footer id="footer" className="flex flex-between">
+           
+            <LeftSide/>
+            <RightSide/>
+        </footer>
     )
 };
 

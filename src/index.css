@@ -36,13 +36,13 @@ body{
 }
 
 /* content */
-/* #content{
+#content{
     display:flex;
     flex-direction: column;
     min-height: 100vh;
     margin:0 auto;
-    width:80%;
-} */
+    max-width: 1360px;
+}
 
 /* FLEX */
 .flex{
@@ -72,18 +72,18 @@ body{
     align-items: start !important;
 }
 
-header, main, footer {
+/* header, main, footer {
 
     max-width: 1360px;
     margin: 0 auto;
-}
+} */
 
-.img-div{
+.img-div, .iframe-div{
     position: relative;
     overflow: hidden;
 }
 
-.img-div img{
+.img-div img, .iframe-div iframe{
     height: 100%;
     width: 100%;
 }
