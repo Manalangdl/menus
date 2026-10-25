@@ -1,11 +1,17 @@
 import "./Home.css";
-import About from "../about/About";
-import Hero from "../../components/hero/Hero";
+import Hero from "./Hero";
+import Cravings from "./Cravings";
+import Guide from "./Guide";
+import About from "./About";
+
 const Home = () => {
     return (
         <div id="home">
             <Hero />
+            <Cravings />
+            <Guide />
             <About />
+
         </div>
     )
 };
