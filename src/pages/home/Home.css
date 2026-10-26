@@ -251,7 +251,7 @@ p.hero-text{
 }
 
 /* ABOUT */
-#about{
+#home #about{
     text-align:center;
     background-color: white;
     padding: 64px auto;
@@ -259,14 +259,14 @@ p.hero-text{
 }
 
 /* about heading */
-#about h2{
+#home #about h2{
     color:var(--dark-maroon);
     font-family: "Crimson Text",serif;
     font-size:30px;
     margin-bottom:30px;
 }
 /* about txt*/
-#about p{
+#home #about p{
     font-size:16px;
     line-height: 1.4;
     margin-bottom: 30px;
