@@ -1,14 +1,24 @@
 {
   "files": {
     "main.css": "/menus/static/css/main.915fff59.css",
-    "main.js": "/menus/static/js/main.64ceab67.js",
+    "main.js": "/menus/static/js/main.d8bef5a6.js",
+    "static/media/hero1.png": "/menus/static/media/hero1.7d2de000ffbcf5b08a82.png",
+    "static/media/sushi.png": "/menus/static/media/sushi.0223b19bc05baaf5f7fc.png",
+    "static/media/about-h.png": "/menus/static/media/about-h.26e9e75d9d691943b0aa.png",
+    "static/media/chips.png": "/menus/static/media/chips.78b172c8b2413bfcac78.png",
+    "static/media/lasagna-hero.png": "/menus/static/media/lasagna-hero.f7c588f85684f4b078dd.png",
+    "static/media/dentsville.png": "/menus/static/media/dentsville.8005aa708bd595f1b016.png",
+    "static/media/mofongo.png": "/menus/static/media/mofongo.6f1922dd4e0a6f98490e.png",
+    "static/media/bagel-circ.png": "/menus/static/media/bagel-circ.dcf8a6e890dd69584599.png",
+    "static/media/ramen-circ.png": "/menus/static/media/ramen-circ.0a482f56861bcec81411.png",
+    "static/media/sushi-circ.png": "/menus/static/media/sushi-circ.5765a41266de0814bd61.png",
     "static/media/menu.webp": "/menus/static/media/menu.e7659c054b64dbf944d8.webp",
     "index.html": "/menus/index.html",
     "main.915fff59.css.map": "/menus/static/css/main.915fff59.css.map",
-    "main.64ceab67.js.map": "/menus/static/js/main.64ceab67.js.map"
+    "main.d8bef5a6.js.map": "/menus/static/js/main.d8bef5a6.js.map"
   },
   "entrypoints": [
     "static/css/main.915fff59.css",
-    "static/js/main.64ceab67.js"
+    "static/js/main.d8bef5a6.js"
   ]
 }
