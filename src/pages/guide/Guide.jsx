@@ -1,10 +1,15 @@
 import "./Guide.css";
+import Intro from "./Intro";
+import Locations from "./Locations";
+import Hero from "./Hero"
 
 const Guide = () => {
     return (
-        <div id="guide">
-            <h2>Guide</h2>
-        </div>
+        <main>
+            <Hero/>
+            <Intro/>
+            <Locations/>
+        </main>
     )
 };
 
