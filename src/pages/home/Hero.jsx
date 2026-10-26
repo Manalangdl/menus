@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Image } from 'lucide-react'
+import heroImg from "./home-imgs/hero1.png"
 
 const Hero = () => {
   return (
@@ -22,7 +22,7 @@ const Hero = () => {
                
                 
                 <div className="hero-img img-div mb-w-100">
-                    <Image src="home-imgs/hero1.png" />
+                    <img src={heroImg} alt='hero' />
                 </div>
 
             </section>

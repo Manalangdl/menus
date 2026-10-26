@@ -1,4 +1,4 @@
-import { Image } from 'lucide-react'
+import chips from "./about-imgs/chips.png"
 import React from 'react'
 
 const Who = () => {
@@ -13,7 +13,7 @@ const Who = () => {
 
 
         <div class="who-img img-div mb-w-100">
-            <Image src="about-imgs/chips.png" alt="Chips on sand"/> 
+            <img src={chips} alt="Chips on sand"/> 
         </div>
     </section>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image } from 'lucide-react'
+import AboutHero from "./about-imgs/about-h.png"
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
         </div>
         
         <div class="img-div hero-right mb-w-100">
-            <Image src="about-imgs/about-h.png" alt="Food eating at table"/>
+            <img src={AboutHero} alt="Food eating at table"/>
         </div>
 
     </section>

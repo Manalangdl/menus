@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Image } from 'lucide-react'
+import mofongo from "./top-picks-imgs/mofongo.png"
 
 const Pick = (props) => {
   return (
     <a href= {props.link}>
         <div>
-            <Image src={props.src} alt="Rec" />
+            <img src={mofongo} alt="Rec" />
             <h3>{props.name}</h3>
         </div>
     </a>

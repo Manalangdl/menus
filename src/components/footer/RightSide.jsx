@@ -1,5 +1,9 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import insta from "./footer-imgs/insta.png"
+import facebook from "./footer-imgs/facebook.png"
+import twitter from "./footer-imgs/x.png"
+import youtube from "./footer-imgs/youtube.png"
 
 const RightSide = () => {
   return (
@@ -9,10 +13,10 @@ const RightSide = () => {
         <div className="flex social-links flex-evenly">
 
 
-            {/* <a href="#"><img src="home-imgs/facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="home-imgs/insta.png" alt="Instagram"></a>
-            <a href="#"><img src="home-imgs/x.png" alt="X"></a>
-            <a href="#"><img src="home-imgs/youtube.png" alt="YouTube"></a> */}
+            <a href="#"><img src={facebook} alt="Facebook"/></a>
+            <a href="#"><img src={insta} alt="Instagram"/></a>
+            <a href="#"><img src={twitter} alt="X"/></a>
+            <a href="#"><img src={youtube} alt="YouTube"/></a>
 
         </div>
 

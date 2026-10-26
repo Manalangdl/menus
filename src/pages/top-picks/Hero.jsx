@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image } from 'lucide-react'
+import lasHeader from "./top-picks-imgs/lasagna-hero.png"
 
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
         </div>
         
         <div class="img-div hero-right mb-w-100">
-            <Image src="top-picks-imgs/lasagna-hero.png" alt="Lasagna with textbox"/>
+            <img src={lasHeader} alt="Lasagna with textbox"/>
         </div>
 
     </section>

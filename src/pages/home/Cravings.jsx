@@ -1,5 +1,10 @@
 import React from 'react'
 import { Image } from 'lucide-react'
+import sushi from "./home-imgs/sushi-circ.png"
+import stars from "./home-imgs/stars.png"
+import ramen from "./home-imgs/ramen-circ.png"
+import bagel from "./home-imgs/bagel-circ.png"
+
 
 const Cravings = () => {
   return (
@@ -14,7 +19,7 @@ const Cravings = () => {
 
             <div className="food-card">
                 <div className="food-img img-div">
-                    <Image src="home-imgs/sushi-circ.png" alt="Sushi platter" />
+                    <img src={sushi} alt="Sushi platter" />
                 </div>
                 
 
@@ -22,27 +27,27 @@ const Cravings = () => {
                 <p>Sushi Platter</p>
 
                 <div className="stars-1 img-div">
-                    <Image src="home-imgs/stars.png" alt="stars" />
+                    <img src={stars} alt="stars" />
                 </div>
 
             </div>
 
             <div className="food-card">
                 <div className="food-img img-div menkoi">
-                    <Image src="home-imgs/ramen-circ.png" alt="Bowl of ramen" />
+                    <img src={ramen} alt="Bowl of ramen" />
                 </div>
 
                 <h3>Menkoi Ramen</h3>
                 <p>Spicy Tonkotsu Ramen</p>
 
                 <div className="stars-1 img-div">
-                    <Image src="home-imgs/stars.png" alt="stars" />
+                    <img src={stars} alt="stars" />
                 </div>
             </div>
             
             <div className="food-card">
                 <div className="food-img img-div">
-                    <Image src="home-imgs/bagel-circ.png" alt="Bagel" />
+                    <img src={bagel} alt="Bagel" />
                 </div>
 
 
@@ -50,7 +55,7 @@ const Cravings = () => {
                 <p>BEC Bagel</p>
 
                 <div className="stars-1 img-div">
-                    <Image src="home-imgs/stars.png" alt="stars" />
+                    <img src={stars} alt="stars" />
                 </div>
                 
             </div>

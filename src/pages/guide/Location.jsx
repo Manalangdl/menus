@@ -1,11 +1,11 @@
 import React from 'react'
-import { Image } from 'lucide-react'
+import locationImg from "./guide-imgs/dentsville.png"
 
 const Location = (props) => {
   return (
     <div className="location-card">
         <div className="location-img">
-            <Image src={props.src} alt='location'/>
+            <img src={locationImg} alt='location'/>
         </div>
 
         <div className="location-name">{props.name}</div>
