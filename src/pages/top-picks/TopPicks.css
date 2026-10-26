@@ -9,6 +9,7 @@
     padding: 24px 80px;
     min-height: 360px;
     align-items: center;
+    padding-bottom: 32px;
 }
 
 /* hero heading */
@@ -126,6 +127,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    gap: 16px;
 }
 
 .food-grid div{
@@ -168,6 +170,9 @@
         padding: 64px;
     }
 
+    #hero p{
+        height: auto;
+    }
 
     #inputs{
         padding: 18px 16px;

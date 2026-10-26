@@ -44,6 +44,7 @@
 .review-grid{
     gap:32px;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .review-grid.max{

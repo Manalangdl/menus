@@ -6,10 +6,10 @@ const Picks = () => {
         <div id='recs'>
 
             <PickSection name={"Asian"} />
-            {/* <PickSection name={"Latino"} />
+            <PickSection name={"Latino"} />
             <PickSection name={"Italian"} />
             <PickSection name={"Southern"} />
-            <PickSection name={"Budget"} /> */}
+            <PickSection name={"Budget"} />
         </div>
     )
 }

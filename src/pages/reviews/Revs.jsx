@@ -1,4 +1,105 @@
 import React from 'react'
+import Review from './Review'
+
+const Reviews = [
+    {
+        "id": 1,
+        "name": "John Regan",
+        "restaurant": "Tacos Locos",
+        "review": "Tacos Locos nails that perfect blend of lively energy and laid-back comfort, making it a spot you actually want to hang around in. The warm lighting and colorful ...",
+        "stars": 4,
+        "month": 8,
+        "day": 13,
+        "year": 2026,
+        "link": "https://www.yelp.com/biz/tacos-loco-and-grill-west-columbia",
+        "src": "review-imgs/tacos.png"
+    },
+    {
+        "id": 2,
+        "name": "Lindsay Manalang",
+        "restaurant": "Inakaya",
+        "review": "Inakaya delivers the kind of atmosphere that feels almost transported straight from a quiet Tokyo side street—soft lantern lighting, ...",
+        "stars": 5,
+        "month": 8,
+        "day": 11,
+        "year": 2026,
+        "link": "https://inakayasushi.com/",
+        "src": "review-imgs/ramen.png"
+    },
+    {
+        "id": 3,
+        "name": "Jacqueline Nguyen",
+        "restaurant": "Inakaya",
+        "review": "This place felt completely different from any place I’ve eaten before. It was my first time at a sushi bar. I was surprised by how fresh and clean ...",
+        "stars": 5,
+        "month": 7,
+        "day": 3,
+        "year": 2026,
+        "link": "https://inakayasushi.com/",
+        "src": "review-imgs/sushi.png"
+    },
+    {
+        "id": 4,
+        "name": "Courtney Thomas",
+        "restaurant": "Cava",
+        "review": "I think Cava is a decent option when I want something quick and healthier than typical fast food. The ingredients are fresh and there are plenty of choices ...",
+        "stars": 3, 
+        "month": 6,
+        "day": 28,
+        "year": 2026,
+        "link": "https://cava.com/",
+        "src": "review-imgs/cava.png"
+    },
+    {
+        "id": 5,
+        "name": "Ashlynn Weaver",
+        "restaurant": "Saluda's Restaurant",
+        "review": "The atmosphere feels upscale and is great for special occasions. Food was well-prepared and the service was friendly. It's definitely a solid choice for dinner in Five Points ...",
+        "stars": 4, 
+        "month": 4,
+        "day": 20,
+        "year": 2026,
+        "link": "https://www.saludas.com/",
+        "src": "review-imgs/saludas.png"
+    },
+    {
+        "id": 6,
+        "name": "Mori Jin",
+        "restaurant": "BackStreets Grill",
+        "review": "The food and drinks are very good. The staff makes it worth it, such a lively crowd, and just a super chill sports-bar. I will definetely come back soon. ...",
+        "stars": 5, 
+        "month": 3,
+        "day": 7,
+        "year": 2026,
+        "link": "https://www.backstreetsgrill.com/",
+        "src": "review-imgs/backstreet.png"
+    },
+    {
+        "id": 7,
+        "name": "Olivia Fitzgerald",
+        "restaurant": "Tios Mexican Cafe",
+        "review": "I am quite disappointed for the food. I order 3 steak tacos and they were bland, not filled, and overpriced for about $4 a taco. My friend also ordered a taco bowl, it was cold and not fresh. Don't go ...",
+        "stars": 2, 
+        "month": 3,
+        "day": 1,
+        "year": 2026,
+        "link": "https://tiossc.com/",
+        "src": "review-imgs/tios.png"
+    },
+    {
+        "id": 8,
+        "name": "Marquiez Carter",
+        "restaurant": "Lizard's Thicket",
+        "review": "Old fashioned diner experience. The staff provided frequent and excellent service. The food was solid but not exciting. The very large menu had lots of options. Fried chicken...",
+        "stars": 4, 
+        "month": 2,
+        "day": 21,
+        "year": 2026,
+        "link": "https://www.lizardsthicket.com/",
+        "src": "review-imgs/lizards.png"
+    }
+    
+]
 
 const Revs = () => {
 	return (
@@ -13,7 +114,14 @@ const Revs = () => {
 				{/* Make component and Generate reviews inside */}
 				<div class="review-grid flex flex-evenly flex-wrap max">
 
-
+					<Review rev = {Reviews[0]}/>
+					<Review rev = {Reviews[1]}/>
+					<Review rev = {Reviews[2]}/>
+					<Review rev = {Reviews[3]}/>
+					<Review rev = {Reviews[4]}/>
+					<Review rev = {Reviews[5]}/>
+					<Review rev = {Reviews[6]}/>
+					<Review rev = {Reviews[7]}/>
 				</div>
 				
 			</div>
