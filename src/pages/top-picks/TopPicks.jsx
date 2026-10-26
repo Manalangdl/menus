@@ -1,11 +1,14 @@
 import "./TopPicks.css";
-import Menus from "../../components/menus";
+import Menus from "../../components/menus/Menus";
 import pic from "./menu.webp";
+import Hero from "./Hero";
+import Search from "./Search"
+import Picks from "./Picks";
 
 const TopPicks = () => {
     return (
         <div id="top-picks" className="page">
-            <h2>Top Picks</h2>
+            {/* <h2>Top Picks</h2>
             <Menus 
                 title="Latino"
                 description="Latinx and hispanic food"
@@ -24,7 +27,11 @@ const TopPicks = () => {
                 description="Food from Italy"/>
             <Menus 
                 title="Other"
-                description="Random"/>
+                description="Random"/> */}
+
+            <Hero/>
+            <Search/>
+            <Picks/>
         </div>
     )
 };

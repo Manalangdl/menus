@@ -1,10 +1,15 @@
+import Hero from "./Hero";
+import Recs from "./Recs";
 import "./Reviews.css";
+import Revs from "./Revs";
 
 const Reviews = () => {
     return (
-        <div id="reviews">
-            <h2>Reviews</h2>
-        </div>
+        <>
+            <Hero/>
+            <Revs/>
+            <Recs/>
+        </>
     )
 };
 
