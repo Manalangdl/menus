@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/menus/static/css/main.915fff59.css",
-    "main.js": "/menus/static/js/main.d8bef5a6.js",
+    "main.css": "/menus/static/css/main.319db9b4.css",
+    "main.js": "/menus/static/js/main.fee44833.js",
     "static/media/hero1.png": "/menus/static/media/hero1.7d2de000ffbcf5b08a82.png",
     "static/media/sushi.png": "/menus/static/media/sushi.0223b19bc05baaf5f7fc.png",
     "static/media/about-h.png": "/menus/static/media/about-h.26e9e75d9d691943b0aa.png",
@@ -14,11 +14,11 @@
     "static/media/sushi-circ.png": "/menus/static/media/sushi-circ.5765a41266de0814bd61.png",
     "static/media/menu.webp": "/menus/static/media/menu.e7659c054b64dbf944d8.webp",
     "index.html": "/menus/index.html",
-    "main.915fff59.css.map": "/menus/static/css/main.915fff59.css.map",
-    "main.d8bef5a6.js.map": "/menus/static/js/main.d8bef5a6.js.map"
+    "main.319db9b4.css.map": "/menus/static/css/main.319db9b4.css.map",
+    "main.fee44833.js.map": "/menus/static/js/main.fee44833.js.map"
   },
   "entrypoints": [
-    "static/css/main.915fff59.css",
-    "static/js/main.d8bef5a6.js"
+    "static/css/main.319db9b4.css",
+    "static/js/main.fee44833.js"
   ]
 }
