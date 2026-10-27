@@ -16,3 +16,29 @@
     transform: scale(1.1);
     transform-origin: top;
 }
+
+#toggle-nav{
+    display:block;
+    color:white;
+    text-decoration: none;
+    font-size:2em;
+}
+
+.hide-small{
+    display: none;
+}
+
+/* DO MEDIA QUERY */
+@media screen and (min-width:768px) {
+    .hide-small{
+        display:flex;
+    }
+
+    #toggle-nav{
+        display:none;
+    }
+
+    .main-nav button{
+        display:none;
+    }
+}
