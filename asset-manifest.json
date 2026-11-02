@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.css": "/menus/static/css/main.319db9b4.css",
-    "main.js": "/menus/static/js/main.fee44833.js",
+    "main.css": "/menus/static/css/main.43542c82.css",
+    "main.js": "/menus/static/js/main.bedae3fe.js",
     "static/media/hero1.png": "/menus/static/media/hero1.7d2de000ffbcf5b08a82.png",
     "static/media/sushi.png": "/menus/static/media/sushi.0223b19bc05baaf5f7fc.png",
     "static/media/about-h.png": "/menus/static/media/about-h.26e9e75d9d691943b0aa.png",
+    "static/media/irmo.png": "/menus/static/media/irmo.857d62e44910208aa496.png",
+    "static/media/downtown.png": "/menus/static/media/downtown.786c8ed1bdbdd2197da5.png",
     "static/media/chips.png": "/menus/static/media/chips.78b172c8b2413bfcac78.png",
+    "static/media/on-campus.png": "/menus/static/media/on-campus.eb6528eb5ef99b511994.png",
+    "static/media/rosewood.png": "/menus/static/media/rosewood.c427324b873e6f10d630.png",
+    "static/media/cayce.png": "/menus/static/media/cayce.f3ef6025a4ea149df7bc.png",
     "static/media/lasagna-hero.png": "/menus/static/media/lasagna-hero.f7c588f85684f4b078dd.png",
     "static/media/dentsville.png": "/menus/static/media/dentsville.8005aa708bd595f1b016.png",
     "static/media/mofongo.png": "/menus/static/media/mofongo.6f1922dd4e0a6f98490e.png",
@@ -14,11 +19,11 @@
     "static/media/sushi-circ.png": "/menus/static/media/sushi-circ.5765a41266de0814bd61.png",
     "static/media/menu.webp": "/menus/static/media/menu.e7659c054b64dbf944d8.webp",
     "index.html": "/menus/index.html",
-    "main.319db9b4.css.map": "/menus/static/css/main.319db9b4.css.map",
-    "main.fee44833.js.map": "/menus/static/js/main.fee44833.js.map"
+    "main.43542c82.css.map": "/menus/static/css/main.43542c82.css.map",
+    "main.bedae3fe.js.map": "/menus/static/js/main.bedae3fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.319db9b4.css",
-    "static/js/main.fee44833.js"
+    "static/css/main.43542c82.css",
+    "static/js/main.bedae3fe.js"
   ]
 }
