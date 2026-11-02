@@ -1,4 +1,4 @@
-import {React, useState} from 'react'
+import React, { useState } from 'react'
 import locationImg from "./guide-imgs/dentsville.png"
 import Cayce from "./guide-imgs/cayce.png";
 import Downtown from "./guide-imgs/downtown.png";
