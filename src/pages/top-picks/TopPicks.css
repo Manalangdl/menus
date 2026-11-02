@@ -52,7 +52,7 @@
     background-color: var(--cream);
 }
 
-#search, #dropdown{
+#search{
     background: var(--light-gray);
     height: 56px;
     border-radius: 12px;
@@ -74,11 +74,18 @@
 }
 
 #dropdown{
-    padding: 0 24px;
     font-size: 24px;
     width: 50%;
     cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
 }
+
+.css-1nmdiq5-menu span{
+    background: var(--light-gray);
+}
+
+
 
 .browse{
     padding: 8px 0 0;

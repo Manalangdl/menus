@@ -104,15 +104,15 @@ const Reviews = [
 const Revs = () => {
 	return (
 
-		<section class="review-sect">
-			<div class="">
-				<div class="review-h flex flex-between no-col mb-w-100">
+		<section className="review-sect">
+			<div className="">
+				<div className="review-h flex flex-between no-col mb-w-100">
 					<h2>FRESH FROM OUR COMMUNITY</h2>
-					<p class="view-all" onclick="document.querySelector('.review-grid').classList.toggle('max')">View All</p>
+					<p className="view-all" onclick="document.querySelector('.review-grid').classList.toggle('max')">View All</p>
 				</div>
 
 				{/* Make component and Generate reviews inside */}
-				<div class="review-grid flex flex-evenly flex-wrap max">
+				<div className="review-grid flex flex-evenly flex-wrap max">
 
 					<Review rev = {Reviews[0]}/>
 					<Review rev = {Reviews[1]}/>

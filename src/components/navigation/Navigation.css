@@ -4,10 +4,20 @@
     gap: 40px;
 }
 
-.nav-list a{
+/* #main-nav{
+    background-color: red;
+    height: 100%;
+    width: 50%;
+} */
+
+.nav-list li{
     color: black;
     font-size:14px;
     font-weight:bold;
+}
+
+.nav-list li a {
+    color: inherit;
 }
 
 .nav-list a:hover{
@@ -37,7 +47,7 @@
         display:none;
     }
 
-    .main-nav button{
+    #main-nav button{
         display:none;
     }
 }

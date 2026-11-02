@@ -1,17 +1,15 @@
 import React, { useState } from 'react'
 import Aside from "../aside/Aside";
 
-const Burger = () => {
+const Burger = (props) => {
 
-  const [burger, setBurger] = useState(false);
 
   return (
     <>
-      {burger ? <Aside/> : <></>}
 
       <div onClick={ () => { 
         console.log("here")
-        setBurger(true); }}>
+        props.setMbMenu(true);}}>
 
         
 

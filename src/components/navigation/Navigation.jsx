@@ -18,7 +18,7 @@ const Navigation = () => {
 
             {/* added hide-small in class */}
             {/* <ul className="flex nav-list"> */}
-            <ul className={menuOpen?"":"hide-small"}>
+            <ul className={(menuOpen?"":"hide-small")+" flex nav-list " }>
                 
                 {/* Hashlink used for a componenet of page */}
                 {/* <li><HashLink to="/#about">About</HashLink></li> */}

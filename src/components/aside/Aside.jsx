@@ -1,19 +1,37 @@
 import React from 'react'
-import "./aside.css";
+import { motion, AnimatePresence } from "framer-motion";
+import { NavLink } from 'react-router-dom';
+import "./aside.css"
 
-const Aside = () => {
+const Aside = (props) => {
   return (
-    <aside className="">
+    
+    
+    <AnimatePresence>
+      {props.mbMenu && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+        <aside>
 
-        <ul className="flex column evenly fs-24">
+          <ul className="flex column evenly fs-24">
             <h1>ColaMunchies</h1>
-            <a href="index.html"><li>Home</li></a>
-            <a href="reviews.html"><li>Reviews</li></a>
-            <a href="top-picks.html"><li>Top-picks</li></a>
-            <a href="guide.html"><li>Guide</li></a>
-            <a href="about.html"><li>About</li></a>
-        </ul>
-    </aside>
+              <li onClick={() => { props.setMbMenu(false) }}><NavLink to="/">Home</NavLink></li>
+              <li onClick={() => { props.setMbMenu(false) }}><NavLink to="/reviews">Reviews</NavLink></li>
+              <li onClick={() => { props.setMbMenu(false) }}><NavLink to="/top-picks">Top Picks</NavLink></li>
+              <li onClick={() => { props.setMbMenu(false) }}><NavLink to="/guide">Guide</NavLink></li>
+              <li onClick={() => { props.setMbMenu(false) }}><NavLink to="/about">About</NavLink></li>
+          </ul>
+        </aside>
+       
+    </motion.div>
+      )}
+    </AnimatePresence>
+     
+     
   )
 }
 
