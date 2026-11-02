@@ -3,9 +3,9 @@ import "./aside.css";
 
 const Aside = () => {
   return (
-    <aside class="closed">
+    <aside className="">
 
-        <ul class="flex column evenly fs-24">
+        <ul className="flex column evenly fs-24">
             <h1>ColaMunchies</h1>
             <a href="index.html"><li>Home</li></a>
             <a href="reviews.html"><li>Reviews</li></a>

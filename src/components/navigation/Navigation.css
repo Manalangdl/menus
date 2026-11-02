@@ -10,7 +10,6 @@
     font-weight:bold;
 }
 
-
 .nav-list a:hover{
     color:var(--bright-pink);
     transform: scale(1.1);
