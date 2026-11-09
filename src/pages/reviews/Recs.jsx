@@ -11,16 +11,16 @@ const Recs = () => {
                 <div className="form-inputs form-column mb-center">
                     <h3>Leave a Review</h3>
                     <div>
-                        <label for="name">Name</label>
+                        <label htmlFor="name">Name</label>
                         <input type="text" id="name" placeholder="Your name"/>
 
-                        <label for="email">Email</label>
+                        <label htmlFor="email">Email</label>
                         <input type="text" id="email" placeholder="Your email"/>
 
-                        <label for="restaurant">Restaurant</label>
+                        <label htmlFor="restaurant">Restaurant</label>
                         <input type="text" id="restaurant" placeholder="Name of Restaurant"/>
 
-                        <label for="review">Review</label>
+                        <label htmlFor="review">Review</label>
                         <textarea id="review" placeholder="Your review..."></textarea>
 
                         <button id="submit" type="submit">Submit Review</button>

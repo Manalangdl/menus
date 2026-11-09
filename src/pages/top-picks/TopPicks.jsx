@@ -1,37 +1,35 @@
 import "./TopPicks.css";
-import Menus from "../../components/menus/Menus";
-import pic from "./menu.webp";
 import Hero from "./Hero";
 import Search from "./Search"
 import Picks from "./Picks";
+import axios from "axios";
+import { useState, useEffect } from "react";
 
+import Menu from "../../components/menus/Menus";
 const TopPicks = () => {
+
+    // after the page has loaded
+    // useEffect(()=>{
+    //     const loadMenus = async()=>{
+    //         const response = await axios.get("https://colamunchies_backend.on.render.com/api/menus/")
+    //         setMenus(response.data);
+    //     };
+    //     loadMenus();
+    // },[]);
+    const [menus, setMenus] = useState([1,1,4]);
     return (
         <div id="top-picks" className="page">
-            {/* <h2>Top Picks</h2>
-            <Menus 
-                title="Latino"
-                description="Latinx and hispanic food"
-                src={pic} />
-            <Menus 
-                title="Asian"
-                description="Asian cuisine"/>
-            <Menus 
-                title="Southern"
-                description="Food from the South"/>
-            <Menus 
-                title="Budget"
-                description="Lower price end"/>
-            <Menus 
-                title="Italian"
-                description="Food from Italy"/>
-            <Menus 
-                title="Other"
-                description="Random"/> */}
-
+            {/* {menus.map((menus)=>(
+                <Menu
+                // based on the index.js from backend (api 'menus')
+                title={menus.name}
+                description="Food"
+                src={menus.main_image}/>
+            ))} */}
             <Hero/>
             <Search/>
             <Picks/>
+            
         </div>
     )
 };

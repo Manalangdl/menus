@@ -3,12 +3,15 @@ import React from 'react'
 import Inakaya from "./review-imgs/sushi.png"
 
 const Review = (props) => {
+
+  console.log(`https://colamunchies-backend.onrender.com/${props.rev.src}`)
+
   return (
     <div className="mb-w-100 review-card">
         <div className="">
             <p className='author'>{props.rev.name} reviewed <a href={props.rev.link} target='_blank'>{props.rev.restaurant}</a></p>
         
-            <div className="img-div"><img src={Inakaya} alt="Image is not found"/></div>
+            <div className="img-div"><img src={`https://colamunchies-backend.onrender.com/${props.rev.src}`} alt="Image is not found"/></div>
 
             <p className='review-txt'>"{props.rev.review}"</p>
         </div>
