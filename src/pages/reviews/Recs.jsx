@@ -43,7 +43,11 @@ const Recs = (props) => {
             const newReview = await response.json();
             setResult("Review has been Added");
             e.target.reset();
-            setStars(0);
+            // setBody(() => {
+            //     const today = new Date();
+            //     return {["stars"]: 0,["month"]: Number(today.getMonth()), ["day"]: Number(today.getDate()), ["year"]: Number(today.getFullYear())}
+            // })
+            // setStars(0);
             props.setReviews((prev) => ( [...prev, newReview] ))
         }
 
