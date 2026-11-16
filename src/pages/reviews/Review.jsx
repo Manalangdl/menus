@@ -19,7 +19,7 @@ const Review = (props) => {
 
       <div className="mb-w-100 review-card" onClick={() => { setReviewModal(true); }}>
           <div className="">
-              <p className='author'>{props.rev.name} reviewed <a rel="noreferrer" target='_blank'>{props.rev.restaurant}</a></p>
+              <p className='author'>{props.rev.name} reviewed <a rel="noreferrer" href='#' target='_blank'>{props.rev.restaurant}</a></p>
           
               <div className="img-div"><img src={`https://colamunchies-backend.onrender.com/${props.rev.src}`} alt="Image is not found"/></div>
 
