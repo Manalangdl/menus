@@ -43,11 +43,11 @@ const Recs = (props) => {
             const newReview = await response.json();
             setResult("Review has been Added");
             e.target.reset();
-            // setBody(() => {
-            //     const today = new Date();
-            //     return {["stars"]: 0,["month"]: Number(today.getMonth()), ["day"]: Number(today.getDate()), ["year"]: Number(today.getFullYear())}
-            // })
-            // setStars(0);
+            setBody(() => {
+                const today = new Date();
+                return {["stars"]: 0,["month"]: Number(today.getMonth()), ["day"]: Number(today.getDate()), ["year"]: Number(today.getFullYear())}
+            })
+            setStars(0);
             props.setReviews((prev) => ( [...prev, newReview] ))
         }
 
@@ -106,7 +106,7 @@ const Recs = (props) => {
 
                 <div className="upload-column flex flex-column flex-center">
                     <div className='img-upload img-div'>
-                        {body.src != null ? <img src= {body.src != null ? URL.createObjectURL(body.src) : ""} alt=''/> : <></>}
+                        {(body.src != null) ? <img src= {body.src != null ? URL.createObjectURL(body.src) : ""} alt=''/> : <></>}
                         <input type='file' id='src' name='src' accept='image/' onChange={handleImgChange} placeholder='+' />
                     </div>
                     <p>Add Image</p>
