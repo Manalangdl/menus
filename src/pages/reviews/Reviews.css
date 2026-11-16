@@ -338,6 +338,10 @@
         font-size: 24px !important;
     }
 
+    .review-card{
+        height: 150px;
+    }
+
     #modal-content{
         overflow-y: scroll;
         width: 90% !important;
