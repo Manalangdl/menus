@@ -101,7 +101,7 @@ const Recs = (props) => {
 
                 <div className="upload-column flex flex-column flex-center">
                     <div className='img-upload img-div'>
-                        <img src= {body.src != null ? URL.createObjectURL(body.src) : ""} alt=''/>
+                        {body.src != null ? <img src= {body.src != null ? URL.createObjectURL(body.src) : ""} alt=''/> : <></>}
                         <input type='file' id='src' name='src' accept='image/' onChange={handleImgChange} placeholder='+' />
                     </div>
                     <p>Add Image</p>
