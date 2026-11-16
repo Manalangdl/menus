@@ -86,7 +86,7 @@ const Recs = (props) => {
             <div className="form flex">
 
                 <div className="form-inputs form-column mb-center">
-                    <h3>Leave a Review <br/> <span>{result}</span></h3>
+                    <h3>Leave a Review <h4>{result}</h4></h3>
                     <div>
                         <label htmlFor="name">Name</label>
                         <input type="text" id="name" name='name' onChange={handleChange} placeholder="Your name"/>
