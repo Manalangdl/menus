@@ -10,7 +10,7 @@ const Recs = (props) => {
         const today = new Date();
         return {["stars"]: 0,["month"]: Number(today.getMonth()), ["day"]: Number(today.getDate()), ["year"]: Number(today.getFullYear())}
     });
-    const [result, setResult] = useState("this is present");
+    const [result, setResult] = useState("");
 
     const FormSubmission = async (e) => {
         e.preventDefault();
@@ -86,7 +86,7 @@ const Recs = (props) => {
             <div className="form flex">
 
                 <div className="form-inputs form-column mb-center">
-                    <h3>Leave a Review <span>{result}</span></h3>
+                    <h3>Leave a Review <br/> <span>{result}</span></h3>
                     <div>
                         <label htmlFor="name">Name</label>
                         <input type="text" id="name" name='name' onChange={handleChange} placeholder="Your name"/>
