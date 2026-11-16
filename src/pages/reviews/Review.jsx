@@ -4,8 +4,6 @@ import Inakaya from "./review-imgs/sushi.png"
 
 const Review = (props) => {
 
-  console.log(`https://colamunchies-backend.onrender.com/${props.rev.src}`)
-
   return (
     <div className="mb-w-100 review-card">
         <div className="">

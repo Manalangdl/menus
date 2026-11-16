@@ -201,6 +201,39 @@
     display: grid;
     place-items:center;
     margin:0 auto 12px;
+    position: relative;
+}
+
+.img-upload input{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    z-index: 3;
+}
+
+.img-upload img{
+    height: 100%;
+    width: 100% !important;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+
+.img-upload::after{
+    content: "+";
+    height: 100%;
+    width: 100%;
+    font-size: 64px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
 }
 
 .img-upload span{
