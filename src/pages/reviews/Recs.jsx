@@ -43,6 +43,7 @@ const Recs = (props) => {
             const newReview = await response.json();
             setResult("Review has been Added");
             e.target.reset();
+            setStars(0);
             props.setReviews((prev) => ( [...prev, newReview] ))
         }
 
